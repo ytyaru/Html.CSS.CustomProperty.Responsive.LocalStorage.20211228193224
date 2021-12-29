@@ -46,6 +46,12 @@
 body {
     font-size: calc(100vw / (var(--line-of-chars)));
 }
+.wide-chars {
+    font-size: calc(100vw / (var(--line-of-wide-chars)));
+}
+.half-chars {
+    font-size: calc(100vw / (var(--line-of-half-chars)));
+}
 img.icon {
     width: 1em;
     height: 1em;

@@ -18,9 +18,16 @@
 <body>
     <!--<input type="range" id="FontSize" name="FontSize" min="10" max="50" value="30" placeholder="30">-->
     <input type="range" id="line-of-wide-chars" name="line-of-wide-chars" min="10" max="50">
-    <label for="line-of-wide-chars"><span id="line-of-wide-chars-label"></span>字／行</label>
+    <label for="line-of-wide-chars"><span id="line-of-wide-chars-label"></span>全角字／行</label>
+    <input type="range" id="line-of-half-chars" name="line-of-half-chars" min="30" max="140">
+    <label for="line-of-half-chars"><span id="line-of-half-chars-label"></span>半角字／行</label>
 
-    <p>１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０</p>
+    <div class="wide-chars">
+        <p>１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０</p>
+    </div>
+    <div class="half-chars">
+        <p>12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890</p>
+    </div>
 
     <footer>
         <span>© 2021 ytyaru</span>
