@@ -1,6 +1,4 @@
-// ああああああああ
 export class LineOfChars { // １行あたりの字数（全角:10〜50,半角:30〜140）
-    #a = '';
     #id = 'line-of-chars'; // CSSカスタムプロパティ、HTML要素のid属性値
     #value = 40; // 字数（初期値）
     #min = 10;     // 字数（最小値）
@@ -8,7 +6,7 @@ export class LineOfChars { // １行あたりの字数（全角:10〜50,半角:3
     #elm_html_input = null; // input type=range
     #elm_html_label = null; // input値表示
     #elm_css_root = null;   // :root
-    constructor(id='line-of-wide-chars', value=40, min=10, max=50) {
+    constructor(id='line-of-chars', value=40, min=10, max=50) {
         this.#id = id; // CSSカスタムプロパティ、HTML要素のid属性値
         this.#value = value; // 字数（初期値）
         this.#min = min;     // 字数（最小値）
